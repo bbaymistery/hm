@@ -2,8 +2,8 @@ const isDevelopment = false; // localohst -> true || live -> false
 const env = {
   websiteDomain: isDevelopment
     ? "http://localhost:8000"
-    : "https://www.london-heathrow.taxi",
-  apiDomain: "https://api.london-tech.com",
+    : "",
+  apiDomain: "",
   status: {
     success: 200,
     error: 403,

@@ -31,7 +31,7 @@ const icons = [
 const WhyChoice = () => {
 
 
-    const [isVisible, ref] = useVisibility();
+    const [isVisible, ref] = useVisibility(); 
 
     return (
         <div className={`${styles.whychoice}  page`} >
