@@ -56,11 +56,11 @@
 
             .top_header_title {
                 color: white;
-                font-size: 29px;
+                font-size: 23px;
                 font-weight: 400;
                 margin-top: -4px;
                 z-index: 999;
-
+width: 400px;
                 &:hover {
                     color: #ed8323;
                     transition: 0.3s ease-in-out;
@@ -108,7 +108,7 @@
                     }
 
                     .phone_tag {
-                        font-size: 28px;
+                        font-size: 23px;
                         color: white;
 
                         @media (max-width:990px) {

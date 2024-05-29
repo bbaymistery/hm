@@ -17,7 +17,7 @@ const TopHeader = () => {
             </div>
             <div className={styles.phoneNumber}>
               <a href="tel:+55555555555" className={styles.phone_tag}>
-                Click to call +55555555555
+              Klicke um anzurufen +55555555555
               </a>
             </div>
           </div>

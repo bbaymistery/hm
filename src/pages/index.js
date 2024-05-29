@@ -1,13 +1,16 @@
 import React, { useEffect, useRef, useState } from "react";
 import styles from "../styles/Home.module.scss";
 import Layout from "../components/layouts/Layout";
+import WhyChoice from "@/components/widgets/WhyChoice";
+import Hero from "@/components/widgets/Hero";
 
 
 export default function HomePage() {
   return (
     <Layout>
       <div className={styles.homecontainer}>
-        s
+        <Hero/>
+        <WhyChoice/>
       </div>
     </Layout>
   );

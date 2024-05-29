@@ -5,7 +5,7 @@ import TopHeader from "../../widgets/Topheader";
 import styles from "./styles.module.scss";
 import dynamic from "next/dynamic";
 import { useRouter } from "next/router";
-const FooterDynamic = dynamic(() => import("../../widgets/Footer/Footer"))
+import Footer from "@/components/widgets/Footer/Footer";
 
 const Layout = ({ children, title = "", noFooter = false, noTopbar = false, description = "", keywords = "", }) => {
   const router = useRouter();
@@ -44,6 +44,7 @@ const Layout = ({ children, title = "", noFooter = false, noTopbar = false, desc
       {!noTopbar ? <TopHeader /> : ""}
       <Header />
       <main>{children}</main>
+      <Footer/>
     </div>
   );
 };

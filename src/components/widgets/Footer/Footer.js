@@ -8,24 +8,27 @@ const Footer = () => {
           <div className={styles.boxes}>
             <div className={`${styles.box_one} ${styles.box}`}>
               <a className={styles.box_logo} href="/">
-                london-heathrow.taxi
+                Zuverlässiges Heimteam
+
               </a>
               <p className={styles.box_desc}>
-                Copyright © 2017 London Heathrow Car Service
+                Copyright © 2024 Zuverlässiges Heimteam
               </p>
             </div>
             <div className={`${styles.box} ${styles.box_two}`}>
-              <p className={styles.text_white}>Have Questions</p>
-              <p className={styles.text_color}>+44 (0) 20 3887 3844</p>
+              <p className={styles.text_white}>Habe Fragen</p>
+              <p className={styles.text_color}>
+                <a href="tel:+55555555555" >Klicke um anzurufen +55555555555</a>
+              </p>
               <p className={styles.text_white}>
-                24/7 Dedicated Customer Support
+                Engagierter Support 24/7
               </p>
             </div>
             <div className={`${styles.box} ${styles.box_three}`}>
-              <p className={styles.text_white}>E-Mail</p>
+              <p className={styles.text_white}>Mission</p>
               <p>
                 <a href="mailto:info@london-heathrow.taxi" className={styles.text_color}>
-                  info@london-heathrow.taxi
+                  Kundenzufriedenheit <br /> ist unsere Priorität
                 </a>
               </p>
             </div>

@@ -20,7 +20,7 @@ class CustomDocument extends Document {
   render() {
 
     return (
-      <Html lang="en">
+      <Html lang="de">
         <Head >
           <link rel="stylesheet" href="/fontawesome/css/all.min.css" />
           <link rel="icon" href="/favicon.ico" />

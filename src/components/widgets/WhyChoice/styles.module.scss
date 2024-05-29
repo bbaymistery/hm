@@ -1,0 +1,80 @@
+@import "../../../styles/colors";
+
+.whychoice {
+    padding-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 130px;
+    padding-bottom: 25px;
+    @media(max-width:768px) {
+        padding-top: 60px;
+
+    }
+    &_section {
+
+
+        &_container {
+
+            h2 {
+                font-weight: bold;
+                font-size: $--text-30;
+
+                @media(max-width:990px) {
+                    font-size: $--text-24;
+
+                }
+            }
+
+            .featureIcons {
+                padding-top: 40px;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+
+                @media(max-width:1400px) {
+                    grid-template-columns: 1fr 1fr;
+                    grid-gap: 2rem;
+                }
+                @media(max-width:768px) {
+                    grid-template-columns: 1fr ;
+                }
+                .featureIcon {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    padding-right: 40px;
+
+                    .featureIcon_icon {
+                        background-color: transparent;
+                    }
+
+                    h3 {
+                        font-size: $--text-18;
+                        margin-top: 30px;
+                        font-weight: 500;
+                    }
+
+                    .featureIcon__text {
+                        margin-top: 10px;
+                        font-size: 15px;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+.fade_bottom_to_top {
+    animation: bottom_to_top 1s ease forwards;
+}
+
+@keyframes bottom_to_top {
+    0% {
+        transform: translateY(40px);
+        opacity: 0; // Start from invisible
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1; // End fully visible
+    }
+}

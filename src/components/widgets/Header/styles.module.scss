@@ -12,8 +12,9 @@
         // width: 100px;
         object-fit: contain;
         width: 135px;
+
         @media (max-width: 992px) {
-  margin-left: 20px;
+            margin-left: 20px;
         }
     }
 
@@ -74,7 +75,7 @@
                 align-items: center;
                 transition: 0.5s ease;
                 position: relative;
-
+gap: 1px;
                 // bu sagda bg orange olan icondu
                 .fa_icon {
                     font-size: 15px;
@@ -193,8 +194,11 @@
                 }
 
                 .active {
+                    background-color: $yellow;
 
-                    a {}
+                    a {
+                        color: white !important;
+                    }
 
                 }
 
@@ -242,7 +246,7 @@
                         a {
                             padding-left: 10px;
                             display: block;
-                            padding: 5px ;
+                            padding: 5px;
                         }
 
                         .firstItem {
@@ -330,7 +334,7 @@
                     .hoverUl {
                         position: absolute;
                         // background-color: $bgBlackDark;      
-                        top:52px;
+                        top: 52px;
                         left: -0px;
                         width: 370px;
                         height: 0px;
@@ -338,8 +342,9 @@
                         opacity: 0;
                         transition: $transition;
                         padding-top: 10px;
-border-radius: 10px;
-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                        border-radius: 10px;
+                        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
                         @media (max-width: 990px) {
                             display: none;
                         }
@@ -358,10 +363,11 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
                             &:hover {
                                 background-color: $yellow;
                                 transition: $transition;
-                                a{
-                                   color: white !important;
+
+                                a {
+                                    color: white !important;
                                 }
-                            
+
                             }
 
                             a {
