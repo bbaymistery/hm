@@ -37,7 +37,7 @@ const WhyChoice = () => {
         <div className={`${styles.whychoice}  page`} >
             <div className={`${styles.whychoice_section} page_section`}>
                 <div className={`${styles.whychoice_section_container} page_section_container`}>
-                    <h2 ref={ref} className={` ${isVisible ? styles.fade_bottom_to_top : ''}`}>Warum uns wählen</h2>
+                    <h1 ref={ref} className={` ${isVisible ? styles.fade_bottom_to_top : ''}`}>Warum uns wählen</h1>
                     <div ref={ref} className={`${styles.featureIcons} ${isVisible ? styles.fade_bottom_to_top : ''}`}>
                         {icons.map((icon, idx) => {
                             return (
@@ -45,7 +45,7 @@ const WhyChoice = () => {
                                     <div className={styles.featureIcon_icon}>
                                         <Image src={icon.image} height={60} width={60} style={{ objectFit: 'cover' }} sizes="(max-width: 768px) 100vw, 50vw" alt={icon.altName} />
                                     </div>
-                                    <h3>{icon.h3}</h3>
+                                    <h2>{icon.h3}</h2>
                                     <p className={styles.featureIcon__text}> {icon.p}  </p>
                                 </div>
                             )
