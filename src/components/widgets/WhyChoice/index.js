@@ -7,7 +7,7 @@ const icons = [
         image: "/images/icons/ticket.webp",
         altName: "icon",
         h3: "Individueller Ansatz für den Kunden",
-        p: " Alle Dienstleistungen für die Reinigung Ihres Hauses und Büros"
+        p: " Alle Dienstleistungen für die Reinigung Ihres Hauses und Büros."
     },
     {
         image: "/images/icons/hot-air-balloon.webp",
@@ -25,7 +25,7 @@ const icons = [
         image: "/images/icons/medal.webp",
         altName: "icon",
         h3: "Moderne Ausrüstung",
-        p: "Beste Ergebnisse mit den neuesten Technologien"
+        p: "Beste Ergebnisse mit den neuesten Technologien."
     },
 ]
 const WhyChoice = () => {

@@ -23,7 +23,7 @@ const Layout = ({ children, title = "", noFooter = false, noTopbar = false, desc
         <meta name="language" content="de"></meta>
         <meta name="robots" content="noindex" />
         {/* <meta name="robots" content="index,follow" /> */}
-        <meta name="viewport"content="width=device-width, initial-scale=1, maximum-scale=1 " />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1 " />
         {/* <meta name="viewport" content="width=device-width, initial-scale=1" /> */}
         {/* <meta name="google-site-verification" content="9niN--Hxw6fLfS5Om0lK1dGEvoDbwo-ZTxjamC9oz64" /> */}
         {/* bunu orijinal siteden ekledik */}
@@ -39,12 +39,13 @@ const Layout = ({ children, title = "", noFooter = false, noTopbar = false, desc
         {/* <meta name="apple-mobile-web-app-title" content="Airport Taxi" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="mobile-web-app-capable" content="yes" /> */}
+        <link rel="stylesheet" href="/fontawesome/css/all.min.css" />
 
       </Head>
       {!noTopbar ? <TopHeader /> : ""}
       <Header />
       <main>{children}</main>
-      <Footer/>
+      <Footer />
     </div>
   );
 };

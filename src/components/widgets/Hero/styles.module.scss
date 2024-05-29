@@ -1,0 +1,163 @@
+@import "../../../styles/colors";
+
+.hero {
+    padding-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 100px;
+    padding-bottom: 25px;
+
+    @media(max-width:768px) {
+        padding-top: 60px;
+
+    }
+
+    &_section {
+        &_container {
+            .content {
+                min-height: 600px;
+                position: relative;
+                border-radius: 10px;
+                overflow: hidden;
+                box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                user-select: none;
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    left: 0px;
+                    right: 0px;
+                    top: 0px;
+                    bottom: 0px;
+                    height: 100%;
+                    background-color: rgba(0, 0, 0, 0.55);
+                    z-index: 1;
+                }
+
+                .image_Div {
+
+
+                    overflow: hidden;
+
+                    img {
+                        width: 100%;
+                        position: relative;
+
+                        @media(max-width:990px) {
+                            object-fit: cover;
+                        }
+                    }
+                }
+
+                .info {
+                    position: relative;
+                    z-index: 11;
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 10px 20px;
+                    height: 100%;
+                    align-items: center;
+                    gap: 2rem;
+min-height: 600px;
+                    @media(max-width:990px) {
+                        flex-direction: column;
+                    }
+
+                    .left {
+                        flex: .6;
+
+                        @media(max-width:990px) {
+                            flex: 1;
+                        }
+
+                        h1 {
+                            color: rgb(255, 255, 255);
+                            font-size: 50px;
+                            font-weight: 500;
+                            letter-spacing: 1px;
+                            margin-bottom: 15px;
+
+                            @media(max-width:990px) {
+                                font-size: 38px;
+                            }
+                            @media(max-width:768px) {
+                                font-size: 28px;
+                            }
+                        }
+
+                        p {
+                            padding: 5px 0px;
+                            font-size: 25px;
+                            color: white;
+                            letter-spacing: 2px;
+                            font-weight: 500;
+
+                            @media(max-width:990px) {
+                                font-size: 22px;
+                                padding-bottom: 16px;
+                            }
+                            @media(max-width:768px) {
+                                font-size: 19px;
+                            }
+
+                        }
+                    }
+
+                    .right {
+                        flex: .4;
+
+                        @media(max-width:990px) {
+                            flex: 1;
+                            width: 100%;
+                            margin-bottom: 10px;
+                        }
+
+                        .right_content {
+                            background-color: #f8f8f8cc;
+
+                            border-radius: 10px;
+                            padding: 10px 10px;
+
+                            h2 {
+                                color: black;
+                                @media(max-width:768px) {
+                                    font-size: 24px;
+                                }
+                            }
+
+                            li {
+                                font-size: 23px;
+                                padding: 10px 0px;
+                                color: black;
+                                @media(max-width:768px) {
+                                 font-size: 19px;
+                                }
+                            }
+
+                            a {
+                                font-size: 23px;
+                                color: black;
+                                margin-top: 10px !important;
+                                @media(max-width:768px) {
+                                    font-size: 19px;
+                                   }
+                                i {
+                                    color: #1c7c0e;
+                                    margin-right: 10px;
+                                }
+                            }
+
+                            p {
+                                padding-top: 10px;
+                                padding-bottom: 10px;
+                                color: black;
+                                font-size: 18px;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}

@@ -8,13 +8,11 @@ export const headerLinkNames = [
   {
     id: 2,
     linkName: "Services",
-
-    linkUrl: "/heathrow-transfer-deals",
+    linkUrl: "",
   },
-
   {
     id: 5,
-    linkName: "news",
+    linkName: "Nachrichten",
     
     linkUrl: "/news",
   },
