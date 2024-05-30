@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { headerLinkNames, heathrowTransferDealsLinkNames, services } from "../../../constants/headerLinkNames/index.js";
 import styles from "./styles.module.scss";
+import Image from 'next/image'
 
 import { useRouter } from "next/router.js";
 const Header = () => {
@@ -33,7 +34,8 @@ const Header = () => {
     <div className={styles.nav_container} id="navbar_container">
       {/* Trusted Fix Team */}
 
-      <img src="/llll.jpg" alt="" />
+      <Image priority className={styles.landing_image} width={135}  height={43} src="/llll.jpg" alt="Fix Team Logo " sizes="100vw" />
+
       <nav className={styles.nav}>
         <div className={styles.logoDiv}>
           <a href="/">
