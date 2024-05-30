@@ -49,7 +49,7 @@ const icons = [
         price: "$235"
     },
     {
-        image: "/images/tisher.png",
+        image: "/images/tisher.webp",
         altName: "Sinsheim",
         location: "Sinsheim",
         p: "Tischler",
