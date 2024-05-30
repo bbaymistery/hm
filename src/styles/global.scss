@@ -1,10 +1,5 @@
-@import './breakpoint';
-///scsssss
 @import 'typography';
-@import 'components';
-@import 'animations';
 @import 'layouts';
-@import 'notifications';
 
 // @import 'forms';
 *::selection {
@@ -24,7 +19,6 @@ body {
     font-family: Roboto,
         sans-serif;
     --window-margin: 100px;
-    color: $black3;
     font-family: 'Open Sans',
         sans-serif;
     font-size: 14px;

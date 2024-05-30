@@ -31,6 +31,10 @@ const Footer = () => {
                   Kundenzufriedenheit <br /> ist unsere Priorität
                 </a>
               </p>
+
+              <a href="/sitemap.xml">
+                Sitemap
+              </a>
             </div>
           </div>
         </div>
