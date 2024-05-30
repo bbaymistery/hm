@@ -7,7 +7,7 @@ import dynamic from "next/dynamic";
 import { useRouter } from "next/router";
 import Footer from "@/components/widgets/Footer/Footer";
 
-const Layout = ({ children, title = "", noFooter = false, noTopbar = false, description = "", keywords = "", }) => {
+const Layout = ({ children, title = "Services", noFooter = false, noTopbar = false, description = "It is best way", keywords = "Service home,quality", }) => {
   const router = useRouter();
 
   return (

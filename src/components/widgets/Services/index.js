@@ -4,7 +4,7 @@ import { useVisibility } from '../../../hooks/useVisibility';
 import Image from 'next/image';
 const icons = [
     {
-        image: "/images/cilingirs.jpeg",
+        image: "/images/cilingirs.webp",
         altName: "Sinsheim",
         location: "Sinsheim",
         p: "Schlüsseldienst",
@@ -12,7 +12,9 @@ const icons = [
         price: "$189.25"
     },
     {
-        image: "/images/haseere.jpeg",
+        // image: "/images/haseere.webp",
+        image: "/images/cilingirs.webp",
+
 
         altName: "Sinsheim",
         location: "Sinsheim",
@@ -21,7 +23,8 @@ const icons = [
         price: "$225.25"
     },
     {
-        image: "/images/elektrik.jpeg",
+        // image: "/images/elektrik.webp",
+        image: "/images/cilingirs.webp",
 
         altName: "Sinsheim",
         location: "Sinsheim",
@@ -30,7 +33,7 @@ const icons = [
         price: "$189.25"
     },
     {
-        image: "/images/sanitar.jpeg",
+        image: "/images/sanitar.webp",
         altName: "Sinsheim",
         location: "Sinsheim",
         p: "Sanitär",
@@ -38,7 +41,7 @@ const icons = [
         price: "$943.25"
     },
     {
-        image: "/images/boruu.jpeg",
+        image: "/images/boruu.webp",
         altName: "Sinsheim",
         location: "Sinsheim",
         p: "Rohrreinigung ",
@@ -54,7 +57,7 @@ const icons = [
         price: "$235"
     },
     {
-        image: "/images/housemade.jpeg",
+        image: "/images/housemade.webp",
         altName: "Sinsheim",
         location: "Sinsheim",
         p: "Reinigungsdienste",
@@ -63,7 +66,9 @@ const icons = [
     },
  
     {
-        image: "/images/ekipmanOnarm.jpeg",
+        // image: "/images/ekipmanOnarm.webp",
+        image: "/images/cilingirs.webp",
+
         altName: "Sinsheim",
         location: "Sinsheim",
         p: "Gerätereparaturen ",
@@ -73,7 +78,9 @@ const icons = [
 
 
     {
-        image: "/images/doseme.jpeg",
+        // image: "/images/doseme.webp",
+        image: "/images/cilingirs.webp",
+
         altName: "Sinsheim",
         location: "Sinsheim",
         p: "Fliesenarbeiten ",
@@ -93,7 +100,7 @@ const icons = [
     
 
     {
-        image: "/images/boyads.jpeg",
+        image: "/images/boyads.webp",
         altName: "Sinsheim",
         location: "Sinsheim",
         p: "Malerarbeiten  ",
@@ -103,7 +110,7 @@ const icons = [
 
     
     {
-        image: "/images/bahcelik.jpeg",
+        image: "/images/bahcelik.webp",
         altName: "Sinsheim",
         location: "Sinsheim",
         p: "Gartenarbeit  ",
@@ -112,7 +119,7 @@ const icons = [
     },
 
     {
-        image: "/images/evboyas.jpeg",
+        image: "/images/evboyas.webp",
         altName: "Sinsheim",
         location: "Sinsheim",
         p: "Gipserarbeiten und Rigipswandplatten-Montage ",
@@ -121,7 +128,7 @@ const icons = [
     },
 
     {
-        image: "/images/transport.jpeg",
+        image: "/images/transport.webp",
         altName: "Sinsheim",
         location: "Sinsheim",
         p: "Transport, Umzug und Entrümpelung",
