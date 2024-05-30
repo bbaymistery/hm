@@ -21,7 +21,7 @@ const Hero = () => {
                     <div className={styles.content}>
                         <div className={styles.image_Div}>
                             <Image
-                                priority
+                                fetchPriority='auto'
                                 className={styles.landing_image}
                                 fill
                                 src={"/images/HeRO.webp"} alt="Image" sizes="100vw" />
