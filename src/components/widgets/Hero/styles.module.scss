@@ -58,7 +58,8 @@
                     height: 100%;
                     align-items: center;
                     gap: 2rem;
-min-height: 600px;
+                    min-height: 600px;
+
                     @media(max-width:990px) {
                         flex-direction: column;
                     }
@@ -80,6 +81,7 @@ min-height: 600px;
                             @media(max-width:990px) {
                                 font-size: 38px;
                             }
+
                             @media(max-width:768px) {
                                 font-size: 28px;
                             }
@@ -96,6 +98,7 @@ min-height: 600px;
                                 font-size: 22px;
                                 padding-bottom: 16px;
                             }
+
                             @media(max-width:768px) {
                                 font-size: 19px;
                             }
@@ -120,27 +123,34 @@ min-height: 600px;
 
                             h2 {
                                 color: black;
+
                                 @media(max-width:768px) {
                                     font-size: 24px;
                                 }
                             }
 
-                            li {
-                                font-size: 23px;
-                                padding: 10px 0px;
-                                color: black;
-                                @media(max-width:768px) {
-                                 font-size: 19px;
-                                }
+                            ul {
+                                li {
+                                    font-size: 23px;
+                                    padding: 10px 0px;
+                                    color: black;
+                                    list-style:disc;
+margin-left: 30px;
+                                    @media(max-width:768px) {
+                                        font-size: 19px;
+                                    }
+                                }   
                             }
 
                             a {
                                 font-size: 23px;
                                 color: black;
                                 margin-top: 10px !important;
+
                                 @media(max-width:768px) {
                                     font-size: 19px;
-                                   }
+                                }
+
                                 i {
                                     color: #1c7c0e;
                                     margin-right: 10px;
