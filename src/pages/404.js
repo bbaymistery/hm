@@ -5,7 +5,7 @@ const CustomError = () => {
       <div id="mainC">
         <div className="message">
           <h1>404</h1>
-          <h3>the page you seek does not exist</h3>
+          <h3>Die gesuchte Seite existiert nicht</h3>
           &nbsp;
         </div>
         <div className="footer">
@@ -13,7 +13,7 @@ const CustomError = () => {
             Go Back <span></span>
           </a>
           <p className="legal">
-            &copy; London-heathrow.taxi 2022 <br /> All rights reserved.
+            &copy;Copyright © 2024 Zuverlässiges Heimteam<br /> All rights reserved.
           </p>
         </div>
       </div>

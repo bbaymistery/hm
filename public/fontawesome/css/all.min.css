@@ -18,3 +18,11 @@
 .fa-phone:before {
     content: "\f095"
 }
+.fa-star:before {
+    content: "\f005"
+}
+
+.fa-location-dot:before,
+.fa-map-marker-alt:before {
+    content: "\f3c5"
+}

@@ -3,14 +3,17 @@ import styles from "../styles/Home.module.scss";
 import Layout from "../components/layouts/Layout";
 import WhyChoice from "@/components/widgets/WhyChoice";
 import Hero from "@/components/widgets/Hero";
+import Services from "@/components/widgets/Services";
 
 
 export default function HomePage() {
   return (
     <Layout>
       <div className={styles.homecontainer}>
-        <Hero/>
-        <WhyChoice/>
+        <Hero />
+
+        <WhyChoice />
+        <Services />
       </div>
     </Layout>
   );
