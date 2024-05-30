@@ -21,8 +21,8 @@ const Layout = ({ children, title = "Services", noFooter = false, noTopbar = fal
         <meta name="resource-type" content="document" />
         {/* <meta name="author" content="London-Heathrow.Taxi" /> */}
         <meta name="language" content="de"></meta>
-        <meta name="robots" content="noindex" />
-        {/* <meta name="robots" content="index,follow" /> */}
+        {/* <meta name="robots" content="noindex" /> */}
+        <meta name="robots" content="index,follow" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1 " />
         {/* <meta name="viewport" content="width=device-width, initial-scale=1" /> */}
         {/* <meta name="google-site-verification" content="9niN--Hxw6fLfS5Om0lK1dGEvoDbwo-ZTxjamC9oz64" /> */}
