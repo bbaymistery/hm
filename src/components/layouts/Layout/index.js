@@ -3,13 +3,11 @@ import Head from "next/head";
 import Header from "../../widgets/Header";
 import TopHeader from "../../widgets/Topheader";
 import styles from "./styles.module.scss";
-import dynamic from "next/dynamic";
-import { useRouter } from "next/router";
 import Footer from "@/components/widgets/Footer/Footer";
+import { useRouter } from "next/router";
 
-const Layout = ({ children, title = "Services", noFooter = false, noTopbar = false, description = "It is best way", keywords = "Service home,quality", }) => {
-  const router = useRouter();
-
+const Layout = ({ children, title = "Services", description = "It is best way", keywords = "Service home,quality", canonical = "https://trustedfixteam.netlify.app" }) => {
+  const router = useRouter()
   return (
     <div className={styles.container_layout}>
       <Head>
@@ -36,13 +34,14 @@ const Layout = ({ children, title = "Services", noFooter = false, noTopbar = fal
         <meta httpEquiv="X-UA-Compatible" content="IE=10" />
         <meta httpEquiv="X-UA-Compatible" content="IE=Edge" />
         <meta content="text/html;charset=utf-8" httpEquiv="Content-Type" />
+        {router.pathname === '/' ? <link rel="canonical" href={canonical}></link> : <></>}
         {/* <meta name="apple-mobile-web-app-title" content="Airport Taxi" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="mobile-web-app-capable" content="yes" /> */}
         <link rel="stylesheet" href="/fontawesome/css/all.min.css" />
 
       </Head>
-      {!noTopbar ? <TopHeader /> : ""}
+      <TopHeader />
       <Header />
       <main>{children}</main>
       <Footer />

@@ -2,7 +2,7 @@ const isDevelopment = false; // localohst -> true || live -> false
 const env = {
   websiteDomain: isDevelopment
     ? "http://localhost:8000"
-    : "",
+    : "https://trustedfixteam.netlify.app",
   apiDomain: "",
   status: {
     success: 200,

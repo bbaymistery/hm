@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { headerLinkNames, heathrowTransferDealsLinkNames, services } from "../../../constants/headerLinkNames/index.js";
+import { headerLinkNames, services } from "../../../constants/headerLinkNames/index.js";
 import styles from "./styles.module.scss";
 import Image from 'next/image'
 
@@ -28,13 +28,13 @@ const Header = () => {
     }
   }, [animationDrop]);
 
-//!mobile galbdir
+  //!mobile galbdir
 
   return (
     <div className={styles.nav_container} id="navbar_container">
       {/* Trusted Fix Team */}
 
-      <Image priority className={styles.landing_image} width={135}  height={43} src="/llll.jpg" alt="Fix Team Logo " sizes="100vw" />
+      <Image fetchPriority="auto" className={styles.landing_image} width={135} height={43} src="/llll.jpg" alt="Fix Team Logo " sizes="100vw" />
 
       <nav className={styles.nav}>
         <div className={styles.logoDiv}>
@@ -48,7 +48,7 @@ const Header = () => {
             <i onClick={openOrCloseDropDown} className={`fa-solid fa-angle-down ${styles.fa_icon} ${animationDrop && styles.rotatedIcon} `}    ></i>
             {headerLinkNames?.map((item, i) => {
               return (
-                <li key={item.id} className={`${styles.li_item} ${item.linkUrl === router.pathname && styles.active} ${i === 1 ? styles.hoverlayItem : ""}`} >
+                <li key={i + 999999999999999} className={`${styles.li_item} ${item.linkUrl === router.pathname && styles.active} ${i === 1 ? styles.hoverlayItem : ""}`} >
                   <a href={item.linkUrl} id={`linkUrl_${i}`} className={`${styles.firstItem} ${styles.item} ${item.id === 6 ? "manage-booking-a" : ""}`}   >
                     {item.linkName}
                   </a>
@@ -59,9 +59,9 @@ const Header = () => {
 
                   {i === 1 && (
                     <ul className={styles.hoverUl}>
-                      {services?.map((item) => {
+                      {services?.map((item, i) => {
                         return (
-                          <li className={`   ${item.text === activeLinkSelected && styles.active}`} key={item.id}    >
+                          <li className={`   ${item.text === activeLinkSelected && styles.active}`} key={i + 889986}    >
                             <a href={item.url}>  {item.text}
                             </a>
                           </li>
@@ -71,9 +71,9 @@ const Header = () => {
                   )}
                   {i === 1 && (
                     <ul style={{ height: `${animationDrop ? "140px" : "0px"}`, visibility: `${animationDrop ? "visible" : "hidden"}`, opacity: `${animationDrop ? 1 : 0}`, display: `${!animationDrop ? "none" : "block"}`, }} className={` ${styles.forMobileHover}`}   >
-                      {services.map((item) => {
+                      {services.map((item, i) => {
                         return (
-                          <li className={` ${item.text === activeLinkSelected && styles.active}`} key={item.id}   >
+                          <li className={` ${item.text === activeLinkSelected && styles.active}`} key={i + 32456}   >
                             <a href={item.url}>{item.text}</a>
                           </li>
                         );
@@ -93,7 +93,7 @@ const Header = () => {
               activeClass ?
                 headerLinkNames?.map((item, i) => {
                   return (
-                    <li key={item.id} className={`${styles.li_item} ${item.linkUrl === router.pathname && styles.active} ${i === 1 ? styles.hoverlayItem : ""}`} >
+                    <li key={i + 44444} className={`${styles.li_item} ${item.linkUrl === router.pathname && styles.active} ${i === 1 ? styles.hoverlayItem : ""}`} >
                       <a href={item.linkUrl} id={`linkUrl_${i}`} className={`${styles.firstItem} ${styles.item} ${item.id === 6 ? "manage-booking-a" : ""}`}   >
                         {item.linkName}
                       </a>
@@ -104,9 +104,9 @@ const Header = () => {
 
                       {i === 1 && (
                         <ul className={styles.hoverUl}>
-                          {services?.map((item) => {
+                          {services?.map((item, i) => {
                             return (
-                              <li className={`   ${item.linkName === activeLinkSelected && styles.active}`} key={item.id}    >
+                              <li className={`${item.linkName === activeLinkSelected && styles.active}`} key={i + 111}    >
                                 <a href={item.url}>  {item.text}
                                 </a>
                               </li>
@@ -120,9 +120,9 @@ const Header = () => {
                       )}
                       {i === 1 && (
                         <ul style={{ height: `${animationDrop ? "480px" : "0px"}`, visibility: `${animationDrop ? "visible" : "hidden"}`, opacity: `${animationDrop ? 1 : 0}`, display: `${!animationDrop ? "none" : "block"}`, }} className={` ${styles.forMobileHover}`}   >
-                          {services.map((item) => {
+                          {services.map((item, i) => {
                             return (
-                              <li className={` ${item.linkName === activeLinkSelected && styles.active}`} key={item.id}   >
+                              <li className={` ${item.linkName === activeLinkSelected && styles.active}`} key={i + 1111}   >
                                 <a href={item.url}>{item.text}</a>
                               </li>
                             );
