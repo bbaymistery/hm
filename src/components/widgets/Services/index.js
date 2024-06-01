@@ -12,8 +12,7 @@ const icons = [
         price: "$189.25"
     },
     {
-        // image: "/images/haseere.webp",
-        image: "/images/cilingirs.webp",
+        image: "/images/haseere.webp",
 
 
         altName: "Sinsheim",
@@ -23,8 +22,7 @@ const icons = [
         price: "$225.25"
     },
     {
-        // image: "/images/elektrik.webp",
-        image: "/images/cilingirs.webp",
+        image: "/images/elektrik.webp",
 
         altName: "Sinsheim",
         location: "Sinsheim",
@@ -66,8 +64,8 @@ const icons = [
     },
  
     {
-        // image: "/images/ekipmanOnarm.webp",
-        image: "/images/cilingirs.webp",
+        image: "/images/ekipmanOnarm.webp",
+        // image: "/images/cilingirs.webp",
 
         altName: "Sinsheim",
         location: "Sinsheim",
@@ -78,8 +76,8 @@ const icons = [
 
 
     {
-        // image: "/images/doseme.webp",
-        image: "/images/cilingirs.webp",
+        image: "/images/doseme.webp",
+        // image: "/images/cilingirs.webp",
 
         altName: "Sinsheim",
         location: "Sinsheim",
