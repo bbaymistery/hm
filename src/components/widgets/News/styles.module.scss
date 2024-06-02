@@ -1,10 +1,11 @@
 @import "../../../styles/colors";
 
-.populardestination {
+.news {
     padding-bottom: 0px;
     margin-top: 0px;
-    padding-top: 120px;
+    padding-top: 155px !important;
     padding-bottom: 155px;
+    position: relative;
 
     @media(max-width:768px) {
         padding-top: 60px;
@@ -13,33 +14,22 @@
     &_section {
 
 
-        .populardestination_section_container {
+        .news_section_container {
             .title_div {
                 display: flex;
                 justify-content: space-between;
                 flex-direction: column;
-p{
-    font-weight: bold;
-}
+
                 @media(max-width:600px) {
                     flex-direction: column;
                     gap: 1rem;
                     text-align: center;
                 }
 
-                a {
-                    color: $yellow;
-                    display: flex;
-                    gap: 10px;
-
-                    @media(max-width:600px) {
-                        display: flex;
-                        justify-content: center;
-                    }
-
-                    i {
-                        transform: rotate(-30deg);
-                    }
+                p {
+                    margin-top: 2rem;
+                    font-size: 20px;
+                    font-weight: 500;
                 }
 
                 h2 {
@@ -77,8 +67,7 @@ p{
                     padding: 15px 15px;
                     border: 1px solid $bg_light;
                     border-radius: 12px;
-                    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
                     a {
                         color: $yellow;
 
@@ -104,14 +93,7 @@ p{
                         .tourcard_content {
                             padding: 10px 10px 0px 10px;
 
-                            .location {
-                                color: rgb(2, 2, 2);
-                                font-size: 13px;
 
-                                i {
-                                    margin-right: 5px;
-                                }
-                            }
 
                             .title {
                                 font-size: 19px;
@@ -135,51 +117,12 @@ p{
                             }
 
                             .tourcard_rating {
-                                display: flex;
-                                align-items: center;
+                   
 
-                                .stars {
-                                    display: flex;
-                                    gap: 3px;
 
-                                    i {
-                                        font-size: 10px;
-                                        color: $darkYellow;
-                                    }
-                                }
-
-                                span {
-                                    margin-left: 10px;
-                                    color: $yellow;
-                                    font-size: 13px;
-
-                                }
                             }
 
-                            .tourcard_bottom {
-                                border-top: 1px solid $bg_light;
-                                padding-top: 10px;
-                                margin-top: 10px;
-                                display: flex;
-                                justify-content: space-between;
 
-                                i {
-                                    color: $bg_light;
-                                    font-size: 14px;
-                                }
-
-                                .price {
-                                    font-size: 13px;
-                                    color: black;
-
-                                    span {
-                                        font-size: 20px;
-                                        font-weight: 500;
-                                        margin-left: 5px;
-                                        color: black;
-                                    }
-                                }
-                            }
                         }
                     }
 

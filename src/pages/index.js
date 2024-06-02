@@ -4,6 +4,7 @@ import Layout from "../components/layouts/Layout";
 import WhyChoice from "@/components/widgets/WhyChoice";
 import Hero from "@/components/widgets/Hero";
 import Services from "@/components/widgets/Services";
+import News from "@/components/widgets/News";
 
 
 export default function HomePage() {
@@ -14,6 +15,7 @@ export default function HomePage() {
 
         <WhyChoice />
         <Services />
+        <News />
       </div>
     </Layout>
   );

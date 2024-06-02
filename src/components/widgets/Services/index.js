@@ -7,6 +7,7 @@ const icons = [
         image: "/images/cilingirs.webp",
         altName: "Sinsheim",
         location: "Sinsheim",
+        "url": "/schlusseldienst",
         p: "Schlüsseldienst",
         rate: "4.8",
         price: "$189.25"
@@ -18,12 +19,14 @@ const icons = [
         altName: "Sinsheim",
         location: "Sinsheim",
         p: "Schädlingsbekämpfung",
+        "url": "/schadlingsbekampfung",
+
         rate: "4.8",
         price: "$225.25"
     },
     {
         image: "/images/elektrik.webp",
-
+        "url": "/elektriker",
         altName: "Sinsheim",
         location: "Sinsheim",
         p: "Elektriker",
@@ -34,6 +37,7 @@ const icons = [
         image: "/images/sanitar.webp",
         altName: "Sinsheim",
         location: "Sinsheim",
+        "url": "/sanitar",
         p: "Sanitär",
         rate: "4.8",
         price: "$943.25"
@@ -43,8 +47,11 @@ const icons = [
         altName: "Sinsheim",
         location: "Sinsheim",
         p: "Rohrreinigung ",
+        "url": "/rohrreinigung",
+
         rate: "4.8",
-        price: "$235"
+        price: "$235",
+
     },
     {
         image: "/images/tisher.webp",
@@ -52,21 +59,25 @@ const icons = [
         location: "Sinsheim",
         p: "Tischler",
         rate: "4.8",
+        "url": "/tischler",
+
         price: "$235"
     },
     {
         image: "/images/housemade.webp",
+        "url": "/reinigungsdienste",
+
         altName: "Sinsheim",
         location: "Sinsheim",
         p: "Reinigungsdienste",
         rate: "4.8",
         price: "$189.25"
     },
- 
+
     {
         image: "/images/ekipmanOnarm.webp",
         // image: "/images/cilingirs.webp",
-
+        "url": "/geratereparaturen",
         altName: "Sinsheim",
         location: "Sinsheim",
         p: "Gerätereparaturen ",
@@ -77,7 +88,7 @@ const icons = [
 
     {
         image: "/images/doseme.webp",
-        // image: "/images/cilingirs.webp",
+        "url": "/fliesenarbeiten",
 
         altName: "Sinsheim",
         location: "Sinsheim",
@@ -93,9 +104,11 @@ const icons = [
         location: "Sinsheim",
         p: "Maurerdienste  ",
         rate: "4.8",
-        price: "$189.25"
+        price: "$189.25",
+        "url": "/maurerdienste",
+
     },
-    
+
 
     {
         image: "/images/boyads.webp",
@@ -103,17 +116,21 @@ const icons = [
         location: "Sinsheim",
         p: "Malerarbeiten  ",
         rate: "4.8",
-        price: "$189.25"
+        price: "$189.25",
+        "url": "/malerarbeiten",
+
     },
 
-    
+
     {
         image: "/images/bahcelik.webp",
         altName: "Sinsheim",
         location: "Sinsheim",
         p: "Gartenarbeit  ",
         rate: "4.8",
-        price: "$189.25"
+        price: "$189.25",
+        "url": "/gartenarbeit",
+
     },
 
     {
@@ -122,7 +139,9 @@ const icons = [
         location: "Sinsheim",
         p: "Gipserarbeiten und Rigipswandplatten-Montage ",
         rate: "4.8",
-        price: "$189.25"
+        price: "$189.25",
+        "url": "/gipserarbeitenund",
+
     },
 
     {
@@ -130,6 +149,8 @@ const icons = [
         altName: "Sinsheim",
         location: "Sinsheim",
         p: "Transport, Umzug und Entrümpelung",
+        "url": "/transportumzug",
+
         rate: "4.8",
         price: "$189.25"
     },
@@ -145,15 +166,16 @@ const Services = () => {
                         <h2 ref={ref} className={` ${isVisible ? styles.faderight : ''}`} >
                             Unsere Dienstleistungen
                         </h2>
+                        <p>Für jeden Ort, sei es Zuhause, im Garten, im Büro oder auf der Baustelle, finden Sie einen qualifizierten Handwerker</p>
                     </div>
                     <div ref={ref} className={`${styles.featureIcons} ${isVisible ? styles.fade_bottom_to_top : ''}`}>
                         {icons.map((icon, idx) => {
                             return (
                                 <div className={styles.featureIcon} key={idx}>
-                                    <a href="#">
+                                    <a href={icon.url}>
                                         <div className={styles.tourcard_header}>
                                             <div className={styles.tourcard_image}>
-                                            <Image src={icon.image?icon.image:"/images/default.webp"} width={250} height={198} style={{ objectFit: 'cover' }} sizes="(max-width: 768px) 100vw, 50vw" alt={icon.altName} />
+                                                <Image  src={icon.image ? icon.image : "/images/default.webp"} width={250} height={198} style={{ objectFit: 'cover' }} sizes="(max-width: 768px) 100vw, 50vw" alt={icon.altName} />
 
                                             </div>
 

@@ -5,6 +5,7 @@ import CustomError from './404';
 import Layout from '@/components/layouts/Layout';
 import styles from "./styles.module.scss"
 import env from '@/resources/env';
+import SubServices from '@/components/widgets/SubServices';
 const LinkName = (props) => {
     let { error } = props
     const router = useRouter();
@@ -18,7 +19,12 @@ const LinkName = (props) => {
                         <div className={`${styles.link_section} page_section`}>
                             <div className={`${styles.link_section_container} page_section_container`}>
                                 <h1 className={styles.linknametitle}>{router.query.linkname}</h1>
+                                <br />
+                                <SubServices />
                             </div>
+
+
+
                         </div>
                     </div>
                 </Layout>
