@@ -48,8 +48,8 @@ export const services = [
         "text": "Gerätereparaturen",
         "url": "/geratereparaturen",
 
-        "title": "Gerätereparaturen in der nähe in Weinheim | Myhomeservice24.com ",
-        "trTitle": "Weinheim yakınlarında cihaz tamiri | Myhomeservice24.com",
+        "title": "Gerätereparaturen in der nähe in Weinheim  ",
+        "trTitle": "Weinheim yakınlarında cihaz tamiri ",
 
         "keywords": " ",
         "trKeywords": " ",
@@ -63,8 +63,8 @@ export const services = [
         "text": "Fliesenarbeiten",
         "url": "/fliesenarbeiten",
 
-        "title": "Fliesenarbeiten in der nähe in Weinheim | Myhomeservice24.com ",
-        "trTitle": "Weinheim yakınlarında fayans döşeme işi | Myhomeservice24.com",
+        "title": "Fliesenarbeiten in der nähe in Weinheim  ",
+        "trTitle": "Weinheim yakınlarında fayans döşeme işi ",
 
         "keywords": " ",
         "trKeywords": " ",
@@ -79,8 +79,8 @@ export const services = [
         "text": "Gartenarbeit",
         "url": "/gartenarbeit",
         
-        "title": "Gartenarbeit in der nähe in Weinheim | Myhomeservice24.com",
-        "trTitle": "Weinheim yakınlarında bahçe işleri | Myhomeservice24.com",
+        "title": "Gartenarbeit in der nähe in Weinheim ",
+        "trTitle": "Weinheim yakınlarında bahçe işleri ",
 
         "keywords": " ",
         "trKeywords": " ",
@@ -93,8 +93,8 @@ export const services = [
     {
         "text": "Gipserarbeiten und Rigipswandplatten-Montage",
         "url": "/gipserarbeitenund",
-        "title": "Gipserarbeiten und Rigipswandplatten-Montage in der nähe in Weinheim | Myhomeservice24.com",
-        "trTitle": "Weinheim yakınlarında sıva işleri ve alçıpan montajı | Myhomeservice24.com",
+        "title": "Gipserarbeiten und Rigipswandplatten-Montage in der nähe in Weinheim ",
+        "trTitle": "Weinheim yakınlarında sıva işleri ve alçıpan montajı ",
 
         "keywords": " ",
         "trKeywords": " ",
@@ -107,8 +107,8 @@ export const services = [
     {
         "text": "Malerarbeiten",
         "url": "/malerarbeiten",
-        "title": "Malerarbeiten in der nähe in Weinheim | Myhomeservice24.com",
-        "trTitle": "Weinheim yakınlarında boyama işi | Myhomeservice24.com",
+        "title": "Malerarbeiten in der nähe in Weinheim ",
+        "trTitle": "Weinheim yakınlarında boyama işi ",
 
         "keywords": " ",
         "trKeywords": " ",
@@ -121,8 +121,8 @@ export const services = [
     {
         "text": "Maurerdienste",
         "url": "/maurerdienste",
-        "title": "Maurerdienste in der nähe in Weinheim | Myhomeservice24.com",
-        "trTitle": "Weinheim yakınındaki duvarcılık hizmetleri | Myhomeservice24.com",
+        "title": "Maurerdienste in der nähe in Weinheim ",
+        "trTitle": "Weinheim yakınındaki duvarcılık hizmetleri ",
 
         "keywords": " ",
         "trKeywords": " ",
@@ -136,8 +136,8 @@ export const services = [
         "text": "Reinigungsdienste",
         "url": "/reinigungsdienste",
 
-        "title": "Reinigungsdienste in der nähe in Weinheim | Myhomeservice24.com",
-        "trTitle": "Weinheim yakınındaki temizlik hizmetleri | Myhomeservice24.com",
+        "title": "Reinigungsdienste in der nähe in Weinheim ",
+        "trTitle": "Weinheim yakınındaki temizlik hizmetleri ",
 
         "keywords": " ",
         "trKeywords": " ",
@@ -151,8 +151,8 @@ export const services = [
         "text": "Rohrreinigung",
         "url": "/rohrreinigung",
 
-        "title": "Reinigungsdienste in der nähe in Weinheim | Myhomeservice24.com",
-        "trTitle": "Weinheim yakınlarında boru temizleme | Myhomeservice24.com",
+        "title": "Reinigungsdienste in der nähe in Weinheim ",
+        "trTitle": "Weinheim yakınlarında boru temizleme ",
 
         "keywords": " ",
         "trKeywords": " ",
@@ -169,8 +169,8 @@ export const services = [
 
 
         
-        "title": "Sanitär in der nähe in Weinheim | Myhomeservice24.com",
-        "trTitle": "Weinheim yakınındaki su tesisatı | Myhomeservice24.com",
+        "title": "Sanitär in der nähe in Weinheim ",
+        "trTitle": "Weinheim yakınındaki su tesisatı ",
 
         "keywords": " ",
         "trKeywords": " ",
@@ -184,8 +184,8 @@ export const services = [
         "text": "Schädlingsbekämpfung",
         "url": "/schadlingsbekampfung",
 
-        "title": "Schädlingsbekämpfung in der nähe in Weinheim | Myhomeservice24.com",
-        "trTitle": "Yakınlardaki haşere kontrolü Weinheim | Myhomeservice24.com",
+        "title": "Schädlingsbekämpfung in der nähe in Weinheim ",
+        "trTitle": "Yakınlardaki haşere kontrolü Weinheim ",
 
         "keywords": " ",
         "trKeywords": " ",
@@ -200,8 +200,8 @@ export const services = [
         "url": "/schlusseldienst",
 
         
-        "title": "Schlüsseldienst in der nähe in Weinheim | Myhomeservice24.com",
-        "trTitle": "Weinheim yakınındaki çilingir | Myhomeservice24.com",
+        "title": "Schlüsseldienst in der nähe in Weinheim ",
+        "trTitle": "Weinheim yakınındaki çilingir ",
 
         "keywords": " ",
         "trKeywords": " ",
@@ -216,8 +216,8 @@ export const services = [
         "url": "/tischler",
 
            
-        "title": "Tischler in der nähe in Weinheim | Myhomeservice24.com",
-        "trTitle": "Yakındaki marangoz Weinheim'da | Myhomeservice24.com",
+        "title": "Tischler in der nähe in Weinheim ",
+        "trTitle": "Yakındaki marangoz Weinheim'da ",
 
         "keywords": " ",
         "trKeywords": " ",
@@ -233,8 +233,8 @@ export const services = [
 
 
            
-        "title": "Transport, Umzug und Entrümpelung in der nähe in Weinheim | Myhomeservice24.com",
-        "trTitle": "Weinheim yakınlarında ulaşım, taşıma ve takas | Myhomeservice24.com",
+        "title": "Transport, Umzug und Entrümpelung in der nähe in Weinheim ",
+        "trTitle": "Weinheim yakınlarında ulaşım, taşıma ve takas ",
 
         "keywords": " ",
         "trKeywords": " ",

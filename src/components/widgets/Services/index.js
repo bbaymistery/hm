@@ -99,7 +99,7 @@ const icons = [
 
 
     {
-        image: "/images/duvarcilikr.png",
+        image: "/images/duvarcilikr.webp",
         altName: "Sinsheim",
         location: "Sinsheim",
         p: "Maurerdienste  ",

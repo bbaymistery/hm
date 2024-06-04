@@ -1,0 +1,30 @@
+.page {
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+        font-size: 32px;
+
+    }
+
+    .boxs_div {
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+
+        button {
+            background-color: white;
+            display: block;
+            padding: 20px 30px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 0 20px #00000010;
+            border-radius: 10px;
+            border: 1px solid #e2e2e2;
+            text-decoration: none;
+            height: 100%;
+            transition: all .3s;
+            color: #343a40;
+        }
+    }
+}
